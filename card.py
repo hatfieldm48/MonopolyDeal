@@ -27,6 +27,7 @@ class Card:
 
 		self.card_type = card_type
 		self.name = name
+		self.display_name = self.name.upper()
 		self.rent_amounts = rent_amounts
 		self.color = color
 		self.monetary_value = monetary_value
