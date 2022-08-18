@@ -233,10 +233,10 @@ class Deck:
 
 		## Create the 11 Property Wildcards
 		self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-			wild_rent_amounts = [],
+			wild_rent_amounts = [[(1,3),(2,8)], [(1,2),(2,4),(3,7)]],
 			wild_colors = ['dark blue', 'green'], monetary_value=4))
 		self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-			wild_rent_amounts = [],
+			wild_rent_amounts = [[(1,1),(2,2),(3,3)], [(1,1),(2,2)]],
 			wild_colors = ['light blue', 'brown'], monetary_value=1))
 		for i in range(2):
 			self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
@@ -244,20 +244,20 @@ class Deck:
 				wild_colors = ['*'], monetary_value=0))
 		for i in range(2):
 			self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-				wild_rent_amounts = [],
+				wild_rent_amounts = [[(1,1),(2,3),(3,5)], [(1,1),(2,2),(3,4)]],
 				wild_colors = ['orange', 'pink'], monetary_value=2))
 		self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-			wild_rent_amounts = [],
+			wild_rent_amounts = [[(1,2),(2,4),(3,7)], [(1,1),(2,2),(3,3),(4,4)]],
 			wild_colors = ['green', 'railroad'], monetary_value=4))
 		self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-			wild_rent_amounts = [],
+			wild_rent_amounts = [[(1,1),(2,2),(3,3)], [(1,1),(2,2),(3,3),(4,4)]],
 			wild_colors = ['light blue', 'railroad'], monetary_value=4))
 		self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-			wild_rent_amounts = [],
+			wild_rent_amounts = [[(1,1),(2,2)], [(1,1),(2,2),(3,3),(4,4)]],
 			wild_colors = ['utilities', 'railroad'], monetary_value=2))
 		for i in range(2):
 			self.cards.append(Card(deck=self, card_type=3, name = 'property wild card',
-				wild_rent_amounts = [],
+				wild_rent_amounts = [[(1,2),(2,4),(3,6)], [(1,2),(2,3),(3,6)]],
 				wild_colors = ['yellow', 'red'], monetary_value=3))
 
 		## Create the 13 Rent Cards
